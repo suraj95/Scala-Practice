@@ -42,5 +42,10 @@ println("Pi, using 355/113, is about " + approx + "." )
 
 println(s"Pi, using 355/113, is about $approx." ) 
 
+// A tuple is an ordered container of two or more values, all of which may have different types. 
+// Unlike lists and arrays, however, there is no way to iterate through elements in a tuple.
+
+val info = (5, "Korben", true)
+val name = info._2
 
 
